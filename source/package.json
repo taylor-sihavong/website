@@ -1,0 +1,3 @@
+{ "name": "taylor-sihavong-site", "private": true, "type": "module",
+  "scripts": { "build": "node gen-tokens.mjs ds && node build.mjs ds dist && cp dist/* .." },
+  "dependencies": { "react": "18.3.1", "react-dom": "18.3.1" } }
